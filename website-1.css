@@ -1,0 +1,608 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Rubik', sans-serif;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+::selection{
+    background-color: #16B978;
+    color: #fff;
+}
+.header{
+    background-color: #081B54;
+     position: fixed;
+     width: 100%;
+     top: 0;
+     left: 0;
+     z-index: 9999;
+}
+
+.logo img{
+    height: 50px;
+    
+}    
+.header .logo h4{
+    display: inline-block;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.header h4{
+    position: relative;
+    top: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    right: 10px;
+}
+.logo{
+    margin-left: 30px;
+}
+.menu{
+   margin-left: 60px;
+}
+.menu ul li{ display: inline-block;
+
+}
+.menu ul li a{
+   color: #fff;
+   line-height: 65px;
+   font-size: 20px;
+   text-decoration: none;
+   padding: 10px 20px;
+   text-transform: capitalize;
+   transition: .3s all ease-in-out;
+}
+
+.menu ul li a:hover{
+    border-radius: 5px;
+    background-color: #16B978;
+}
+
+/*------ Banner-section-----*/
+
+.banner{
+    background: url('https://i.ibb.co/GCy6r3s/Background-1-2x.png') no-repeat center center;
+    background-size: cover;
+    padding: 70px 0;
+   
+}
+.healthy-img{
+    position: relative;
+    top: 25px;
+    animation-name: rotate;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+    
+}
+
+@keyframes rotate{
+
+    0%{
+           transform: rotate(0deg);
+    }
+
+  
+
+    100%{
+        transform: rotate(359deg);
+    }
+
+}
+
+
+
+.title{
+    position: relative;
+    top: 170px;
+}
+
+.title span{
+    color: #16B978;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.title h1{
+    color: #081B54;
+    font-size: 60px;
+    font-weight: 700;
+}
+.title p{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.title button{
+    border: 3px solid #16B978;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 18px;
+    color: #16B978;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: .3s all ease-in-out;
+}
+.title button:hover{
+    background-color: #16B978;
+    color: #fff;
+}
+
+
+/*------Today section-----*/
+
+
+.foodmenu{
+    background-image: url("https://i.ibb.co/VYh2j9v/about-bg.jpg");
+    padding:80px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.today-title h2{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    
+    font-weight: 700;
+    text-transform:uppercase;
+
+}
+
+.foodmenu .item{
+    margin-top: 50px;
+   background-color: #fff;
+   border-top: 10px solid #16B978;
+   border-radius: 15px;
+   padding: 25px;
+   margin-left: 200px;
+   margin-right: 200px;
+   position: relative;
+   top: 30px;
+   
+   
+}
+
+.foodmenu .item .veg-item img{
+    height: 200px;
+    margin-left: 10px;
+    animation-name: spin;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes spin{
+
+    0%{
+           transform: rotate(0deg);
+    }
+
+  
+
+    100%{
+        transform: rotate(359deg);
+    }
+
+}
+
+
+.foodmenu .veg-item h5{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #081B54;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.foodmenu .veg-item span{
+    color: #16B978;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.margin-left2{
+   position: relative;
+   left: 20px;
+}
+.margin-left3{
+   position: relative;
+   left: 50px;
+}
+.margin-left4{
+   position: relative;
+   left:80px;
+}
+
+.gs-1{
+   position: relative;
+   left: 20px;
+   
+}
+.gs-2{
+   position: relative;
+   left: 60px;
+   
+    
+}
+.gs-3{
+   position: relative;
+   left: 80px;
+   
+}
+.sp-1{
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+.sp-2{
+    position: relative;
+    top: 5px;
+    left: 70px;
+}
+.sp-3{
+    position: relative;
+    
+    left: 95px;
+}
+
+/*------Food section-----*/
+.shop .shop-items h5{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-weight: 700;
+    color: #081B54;
+}
+.shop-items p{
+    color: #16B978;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+.shop-items span{
+    padding: 5px 10px;
+    background-color:#16B978;
+    color: #fff;
+    margin-left: 278.5px;
+    position: relative;
+    top: -2px;
+    border-radius: 10px 0 10px 0;
+    transition: .3s all ease-in-out;
+}
+
+
+
+.shop h2{
+    color: #081B54;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 50px;
+}
+.shop p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.shop .shop-items{
+    width: 24%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(213, 210, 210);
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    
+    
+}
+
+.shop .shop-items .img-item{
+    
+   height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.shop .shop-items .img-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: .5s;
+    object-fit: cover;
+    object-position: center center;
+}
+.shop .shop-items .img-item img:hover{
+    transform: scale(1.1);
+}
+
+.shop .shop-items h5{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-weight: 700;
+    color: #081B54;
+}
+.shop-items p{
+    color: #16B978;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+.shop-items span{
+    padding: 5px 10px;
+    background-color:#16B978;
+    color: #fff;
+    margin-left: 278.5px;
+    position: relative;
+    top: -2px;
+    border-radius: 10px 0 10px 0;
+    transition: .3s all ease-in-out;
+}
+.shop-items span:hover{
+    background-color:#081B54;
+}
+
+
+.last-shop .last-item{
+    width: 48%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(213, 210, 210);
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+
+.last-shop .last-item .last-img{
+     width:100%;
+     height: 300px;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+ 
+ .last-shop .last-item .last-img img{
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+     transition: .5s;
+     object-fit: cover;
+     object-position: center center;
+ }
+ .last-shop .last-item .last-img img:hover{
+     transform: scale(1.1);
+ }
+ 
+ 
+.last-shop .last-item h5{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-weight: 700;
+    color: #081B54;
+}
+.last-item p{
+    color: #16B978;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+}
+.last-item span{
+    padding: 5px 10px;
+    background-color:#16B978;
+    color: #fff;
+    margin-left: 595.5px;
+    position: relative;
+    top: -3px;
+    border-radius: 10px 0 10px 0;
+    transition: .3s all ease-in-out;
+
+}
+
+.last-item span:hover{
+     background-color: #081B54;
+     color: #fff;
+}
+
+/*------Customer section-----*/
+
+.customer h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #081B54;
+    line-height: 48px;
+    
+}
+.customer p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.customer-reviwe .reviwe img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    border: 5px solid #081B54;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+}
+.customer .customer-reviwe .reviwe{
+    margin-top: 10px;
+    width:32%;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgb(213, 210, 210);
+    margin-left:1%;
+    border-radius: 10px;
+    margin-bottom: 8%;
+    padding-bottom: 30px;
+}
+.customer-reviwe .reviwe span{
+    color: #16B978;
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.customer-reviwe .reviwe p{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.customer-reviwe .reviwe h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #16B978;
+
+}
+
+/*------Contact section-----*/
+
+.contact-us h2{
+    color: #081B54;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    
+}
+.contact-us p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #212529;
+}
+
+.contact h3{
+    color: #081B54;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 5%;
+}
+
+.contact h5 span{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    position: relative;
+    top: 10px;
+}
+
+.social h5{
+    margin-left: 35px;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    position: relative;
+    
+}
+.div1{
+    position: relative;
+    top:-15px;
+}
+.div2{
+    position: relative;
+    top:-25px;
+}
+
+.social a{
+    color: #16B978;
+    margin-left: 20px;
+    position: relative;
+    top: -20px;
+    font-size: 18px;
+}
+
+.contact-us form .name{
+    width: 600px;
+    padding: 13px 20px;
+    border: 3px solid #16b978;
+    box-shadow: 1px 1px 15px #cfcfcf;
+    border-radius: 10px;
+    color: #16b978;
+    outline: none;
+    margin-top: 5%;
+}
+.contact-us form .name:focus{
+    border: 3px solid #16b978;
+    box-shadow: 1px 1px 10px #16b978;
+}
+.contact-us form .email{
+    width: 600px;
+    padding: 13px 20px;
+    border: 3px solid #16b978;
+    box-shadow: 1px 1px 15px #cfcfcf;
+    border-radius: 10px;
+    color: #16b978;
+    outline: none;
+    margin: 10px 0;
+}
+.contact-us form .email:focus{
+    border: 3px solid #16b978;
+    box-shadow: 1px 1px 10px #16b978;
+}
+.contact-us form textarea{
+    padding: 20px;
+    border: 3px solid #16b978;
+    box-shadow: 1px 1px 15px #cfcfcf;
+    border-radius: 10px;
+    /* color: #16b978; */
+    outline: none;
+}
+::placeholder{
+    color: #5dc99e;
+}
+.contact-us form textarea:focus{
+    border: 3px solid #16b978;
+    box-shadow: 1px 1px 10px #16b978;
+}
+.contact-us form button{
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    color: #16b978;
+    border: 3px solid #16b978;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: .5s;
+    margin-top: 10px;
+    background: #fff;
+    margin-bottom: 100px;
+    width: 94.4%;
+    text-align: center;
+}
+.contact-us form button:hover{
+    background: #16b978;
+    color: #fff;
+}
+
+/*---------------------Footer-------------------*/
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
